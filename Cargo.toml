@@ -1,0 +1,15 @@
+[package]
+name = "thinking-orbs-rs"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.85"
+authors = ["MUHAMMAD ADRIANSYAH"]
+license = "MIT"
+description = "Deterministic terminal orb animations for the Seavx Agent CLI"
+keywords = ["terminal", "animation", "cli", "orb", "seavx"]
+categories = ["command-line-interface"]
+
+[dependencies]
+crossterm = "0.28"
+
+[dev-dependencies]
